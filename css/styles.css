@@ -32,16 +32,28 @@ body {
   text-align: center;
 }
 
-#nav-list p:first-child{
-  margin-top: 15px;
-}
-
 #nav-list p {
   padding-bottom:10px;
   margin: 0px 0px 0px 0px;
+  color:black;
+}
+
+#nav-list li:nth-child(1){
+  margin-top: 15px;
   border-bottom:solid;
   border-color:black;
-  color:black;
+}
+
+#nav-list li:nth-child(2){
+  margin-top: 15px;
+  border-bottom:solid;
+  border-color:black;
+}
+
+#nav-list li:nth-child(3){
+  margin-top: 15px;
+  border-bottom: none;
+  border-color: none;
 }
 
 #collapsable-nav{
@@ -49,7 +61,7 @@ body {
 }
 
 #menu{
-  margin-top:60px;
+  margin-top:20px;
   text-align: center;
 }
 
